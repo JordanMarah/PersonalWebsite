@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jordan Marah Portfolio Website</title>
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section __title--intro">
+                Hello <strong>Jordan Marah</strong> here!
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+            <img src="img/1.jpg" alt="A picture of Jordan Marah" class="intro__img">
+        </section>
+
+        <!--My services-->
+        <section class="my__services" id="services">
+            <h2 class="section__title section__title--services">Purpose of this Website</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>
+                        I hope, over the following weeks and months, that I attempt to pick up some new technologies in web development.
+                        I would like to familiarize myself with Angular, React and some ASP.NET. These new tech stacks should, in turn,
+                        improve my existing knowledge of HTML, JS, PHP, CSS and C#.  
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>Languages</h3>
+                    <p>
+                        For the most part, in college, I studied C++ extensively during my 2 years in Games Development. I would like
+                        to revise this as C languages are always relevant within the industry and I definitely lost some knowledge of C 
+                        languages in my final year. My final year project was Python based, so I would like to build upon my python knowledge, aswell
+                        as Java.
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>This Website</h3>
+                    <p>
+                        The purpose of this website is to act as a portfolio for myself. I also aim to use this as a place where I can dabble
+                        in web development tools that I have previously mentioned.
+                    </p>
+                </div>
+            </div>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who Am I?</h2>
+            <p class="section__subtitle section__subtitle--about">BSc. Software Development from Institute of Technology, Carlow</p>
+            
+            <div class="about-me__body">
+                <p>I am a recent graduate of Software Development in I.T Carlow. I originally studied games development, however, after
+                    2 years of that, I realized it was not the area I wanted to focus on. I then transferred to second year of Software
+                    and found it suited me much more.
+                </p>
+                <p>
+                    In my spare time, I enjoy hanging out with my friends, watching sports and gaming. I love Manchester United <i>unfortunately</i>,
+                    aswell as trying to keep up with the NBA. I'm a huge music and film fan also.
+                </p>
+                <p>
+                    I recently left my job of 6 and a half years in order to focus on breaking into the software industry.
+                    My goal over the next couple of months is to revise technologies I have previously studied, aswell as pick up
+                    some new technologies.
+                </p>
+            </div>
+            <img src="img/2.jpg" alt="Me in Wicklow" class="about-me__img">
+        </section>
+
+        <!-- My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle--work">A selection of my work</p>
+
+            <div class="portfolio">
+                <!-- Item 1-->
+                <a href="" class="portfolio__item">
+                    <img src="img/4.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Item 2-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/5.jfif" alt="" class="portfolio__img">
+                </a>
+                <!-- Item 3-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/6.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Item 4-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/7.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Item 5-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/8.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Item 6-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/9.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/JordanMarah"><i class="fab fa-github"></i></a> <!-- Font Awesome-->
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" a href="mailto:JordanMarah@outlook.com"><i class="far fa-envelope"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jordan-marah/"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
